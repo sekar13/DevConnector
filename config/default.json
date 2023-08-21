@@ -1,3 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://sekar:Sekar1304@devconnector.eifgpc3.mongodb.net/Mern?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://sekar:Sekar1304@devconnector.eifgpc3.mongodb.net/Mern?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }
