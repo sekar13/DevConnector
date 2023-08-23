@@ -29,30 +29,30 @@ const ProfileSchema = new mongoose.Schema({
     },
     experience: [
         {
-            title:{
+            title: {
                 type: String,
                 required: true
             },
-            company:{
+            company: {
                 type:String,
                 required: true
             },
-            location:{
+            location: {
                 type: String 
             },
-            from:{
+            from: {
                 type: Date,
                 required: true
             },
-            to:{
+            to: {
                 type:Date,
                 
             },
-            current:{
+            current: {
                 type:Boolean,
                 default: false
             },
-            descrption:{
+            descrption: {
                 type: String
             }
         }
